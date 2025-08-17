@@ -5,17 +5,17 @@ const slides = [
   {
     title: "Breaking News: Market Hits New High",
     description: "The stock market reached unprecedented levels today...",
-    bg: "https://via.placeholder.com/1200x600/1E40AF/FFFFFF?text=Market+News",
+    bg: "https://i.ibb.co.com/gbv5LLvb/photo-1632207031562-b14b64039497.jpg",
   },
   {
     title: "Sports Update: Local Team Wins Championship",
     description: "In an exciting finale, the hometown heroes claimed victory...",
-    bg: "https://via.placeholder.com/1200x600/047857/FFFFFF?text=Sports+News",
+    bg: "https://i.ibb.co.com/fVy3qZd8/newsp.jpg",
   },
   {
     title: "Technology: AI Innovations Transforming Industry",
     description: "AI technology continues to evolve, reshaping how companies operate...",
-    bg: "https://via.placeholder.com/1200x600/9D174D/FFFFFF?text=Tech+News",
+    bg: "https://i.ibb.co.com/bjqwVJvR/nes3d.jpg",
   },
 ];
 

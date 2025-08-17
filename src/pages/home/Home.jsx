@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 import { gsap } from "gsap";
 import AboutUs from "./AboutUs";
 import Hero from "./hero/Hero";
+import Directors from "./Directors";
+import NewspaperSection from "./NewspaperSection ";
 
 const Home = () => {
   const [articles, setArticles] = useState([]);
@@ -75,6 +77,8 @@ const Home = () => {
       <AllPublisher />
       <Statistics />
       <Plans />
+      <Directors />
+      <NewspaperSection/>
     </div>
   );
 };
