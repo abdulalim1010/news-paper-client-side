@@ -1,0 +1,22 @@
+.navlink {
+  position: relative;
+  display: inline-block;
+  padding: 4px 8px;
+  color: white;
+  text-decoration: none;
+}
+
+.navlink::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: white;
+  transition: width 0.7s ease;
+}
+
+.navlink:hover::after {
+  width: 100%;
+}

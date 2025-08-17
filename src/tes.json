@@ -1,0 +1,10 @@
+{
+  title: "Sample Premium Article",
+  description: "This is a sample premium article for testing.",
+  image: "https://i.ibb.co/GvRXwh4w/l.jpg",
+  publisher: "Test Publisher",
+  views: 150,
+  isPremium: true,
+  status: "approved",
+  createdAt: new Date()
+}
