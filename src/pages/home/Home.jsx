@@ -6,6 +6,7 @@ import Plans from "../premium/Plans";
 import { Link } from "react-router-dom";
 import { gsap } from "gsap";
 import AboutUs from "./AboutUs";
+import Hero from "./hero/Hero";
 
 const Home = () => {
   const [articles, setArticles] = useState([]);
@@ -33,6 +34,8 @@ const Home = () => {
 
   return (
     <div>
+
+      <Hero/>
       <AboutUs/>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-4">
         {(!articles || articles.length === 0) ? (
