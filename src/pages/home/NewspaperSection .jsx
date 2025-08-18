@@ -33,7 +33,7 @@ const NewspaperSection = () => {
           <h2 className="text-4xl font-bold mb-4">
             Build visually with <span className="text-blue-600">Newspaper Theme</span>
           </h2>
-          <p className="text-white max-w-3xl mx-auto">
+          <p className="text-blue-500 max-w-3xl mx-auto">
             Discover a spectacular page builder created for you. tagDiv Composer page builder gives you all the tools you need to create, design, and shape up your Blog, News, Magazine, eCommerce, and Business website in virtually no time!
           </p>
           <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-xl shadow hover:bg-blue-700 transition">
@@ -53,7 +53,7 @@ const NewspaperSection = () => {
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                <p className="text-white text-sm">{item.description}</p>
+                <p className="text-blue-700 text-sm">{item.description}</p>
               </div>
             </div>
           ))}
